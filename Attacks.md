@@ -8,17 +8,25 @@ A cyber attack is any type of offensive action that targets computer information
 ### 10 most common cyber attack types:
 
 Denial-of-service (DoS) and distributed denial-of-service (DDoS) attacks
+
 Man-in-the-middle (MitM) attack
+
 Phishing and spear phishing attacks
+
 Drive-by attack
+
 Password attack
+
 SQL injection attack
+
 Cross-site scripting (XSS) attack
+
 Eavesdropping attack
+
 Birthday attack
+
 Malware attack
 
-10-Insufficient logging and monitoring
 
 
 ## Man in the middle attack (MITM)
