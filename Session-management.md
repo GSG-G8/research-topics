@@ -51,21 +51,27 @@ npm install express-session
 ```
 
 ### syntax
+This is a middleware, so you install it in Express using
 ``` javascript
-var app = express()
-var sess = {
-  secret: 'keyboard cat',
-  cookie: {}
-}
- 
-if (app.get('env') === 'production') {
-  app.set('trust proxy', 1) // trust first proxy
-  sess.cookie.secure = true // serve secure cookies
-}
- 
-app.use(session(sess))
-```
+const express = require('express')
+const session = require('express-session')
 
+const app = express()
+app.use(session({
+  'secret': '343ji43j4n3jn4jk3n'
+}))
+```
+After this is done, all the requests to the app routes are now using sessions.
+
+secret is the only required parameter, but there are many more you can use. It should be a randomly unique string for your application.
+
+The session is attached to the request, so you can access it using req.session here:
+``` javascript
+app.get('/', (req, res, next) => {
+  req.session.name = 'test'
+console.log(req.session.name) // 'test'
+}
+```
 ## 
 
 ## Session Express Example by express-session mpn :
