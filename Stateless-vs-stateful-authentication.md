@@ -1,7 +1,7 @@
 # Stateless vs stateful authentication
 
 ## stateful authentication (session based auth.)
-Stateful session is created on the backend side, and the corespondent session reference Id is sent to the client. Each time the client makes a request to the server, the server locates the session memory using the reference Id from the client and finds the authentication information.
+Stateful session is created on the backend side, and the correspondent session reference Id is sent to the client. Each time the client makes a request to the server, the server locates the session memory using the reference Id from the client and finds the authentication information.
 In this model, you can easily imagine that if the session memory is deleted on the backend side, then the session reference Id, which the client is holding, is completely meaningless.
 
 - user submits login credintals e.g. email and password.
