@@ -5,25 +5,18 @@
 A cyber attack is any type of offensive action that targets computer information systems, infrastructures, computer networks or personal computer devices, using various methods to steal, alter or destroy data or information systems.
 
 
-### The Top 10 OWASP(Open Web Application Security Project) vulnerabilities in 2020 are:
+### 10 most common cyber attack types:
 
-1-Injection
-
-2-Broken Authentication
-
-3-Sensitive Data Exposure
-
-4-XML External Entities (XXE)
-
-5-Broken Access control
-
-6-Security misconfigurations
-
-7-Cross Site Scripting (XSS)
-
-8-Insecure Deserialization
-
-9-Using Components with known vulnerabilities
+Denial-of-service (DoS) and distributed denial-of-service (DDoS) attacks
+Man-in-the-middle (MitM) attack
+Phishing and spear phishing attacks
+Drive-by attack
+Password attack
+SQL injection attack
+Cross-site scripting (XSS) attack
+Eavesdropping attack
+Birthday attack
+Malware attack
 
 10-Insufficient logging and monitoring
 
