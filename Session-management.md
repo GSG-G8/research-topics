@@ -74,7 +74,7 @@ console.log(req.session.name) // 'test'
 ```
 ## 
 
-## Session Express Example by express-session mpn :
+## Session Express Example by express-session npm :
 [Express-Session npm Documentation](https://www.npmjs.com/package/express-session)
 
 Install express-session npm
